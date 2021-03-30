@@ -1,0 +1,81 @@
+@mixin IE {
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      @content;
+    }
+   
+  }
+@mixin EDGE{
+
+    @supports (-ms-ime-align:auto) {
+        @content;
+    }
+
+}
+@mixin IE-object-fit-V{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    // For vertical blocks (i.e., where height is greater than width)
+    height: 100%;
+    width: auto;
+
+   
+}
+@mixin IE-object-fit-H{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+   
+
+    // For Horizontal blocks (i.e., where width is greater than height)
+    height: auto;
+    width: 100%;
+}
+
+
+@mixin btnColors($textColor, $bgColor, $hoverBgColor, $isBorder){
+    color: $textColor;
+    background-color: $bgColor;
+    @if $isBorder == false {
+        border: none;
+    }
+    
+    &:hover{
+        background-color:  $hoverBgColor;
+        color: $textColor;
+
+    }
+
+}
+
+@mixin mainPadding{
+    padding: 0 16rem;
+    @media only screen and (max-width: $bp-XL) {
+        padding: 0 12rem;
+    }
+    @media only screen and (max-width: $bp-L) {
+        padding: 0 8rem;
+    }
+    @media only screen and (max-width: $bp-M) {
+        padding: 0 5rem;
+    }
+    
+}
+// this is very cool, save this for later
+// @mixin testit($value){
+//     @keyframes loader {
+//         0% {
+//           top: 8px;
+//           height:$value;
+//         }
+//         50%, 100% {
+//           top: 24px;
+//           height: calc($value / 4);
+//         }
+//       }
+      
+// }

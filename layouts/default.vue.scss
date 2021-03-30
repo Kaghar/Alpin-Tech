@@ -1,0 +1,115 @@
+@import 'hooper/dist/hooper.css';
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+} 
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    @media only screen and (max-width: $bp-XXML) {
+        font-size: 55%;
+    }
+    @media only screen and (max-width: $bp-XXL) {
+        font-size: 50%;
+    }
+
+    @media only screen and (max-width: $bp-M) {
+        font-size: 45%;
+    }
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: $color-text;
+  position: relative;
+  font-size: 1.6rem;
+  color: $color-text;
+  line-height: 1.6;
+  font-family: "Regular";
+  @include IE{
+      select {
+          &::-ms-expand {
+              display: none;
+          }
+      }
+  }
+
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url('~assets/fonts/AvenirNextLTPro-Regular.woff') format('woff')
+}
+@font-face {
+  font-family: "Bold";
+  src: url('~assets/fonts/AvenirNextLTPro-Bold.woff') format('woff')
+}
+
+// changing dots for carousel
+.hooper-indicator:hover,
+.hooper-indicator.is-active {
+    background-color: $color-red;
+}
+.hooper-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: $color-white;
+  margin: 0 .5rem;
+}
+
+.hooper-prev,
+.hooper-next{
+  background-color: $color-purple;
+  padding: .5rem;
+
+    & svg{
+      fill: $color-white;
+    }
+}
+
+// changing dots for carousel
+
+.heading-1{
+  font-size: 9rem;
+  font-family: "Bold";
+  color: $color-white;
+  line-height: 1.1;
+  @media only screen and (max-width: $bp-M) {
+    font-size: 6rem;
+  }
+  @media only screen and (max-width: $bp-S) {
+    font-size: 4rem;
+  }
+}
+
+.heading-2 {
+  font-size: 5rem;
+  font-family: "Bold";
+  line-height: 1;
+}
+
+.heading-3{
+  font-size: 2.4rem;
+  font-family: "Bold";
+  line-height: 1.2;
+}
+
+.heading-4 {
+  
+}
+.heading-5 {
+  
+}
+.heading-6 {
+  
+}
+
