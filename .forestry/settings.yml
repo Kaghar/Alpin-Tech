@@ -5,12 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Headingstuff
+  label: Frontpage
 - type: document
-  path: https://github.com/Kaghar/Alpin-tech/tree/main/content
+  path: https://github.com/Kaghar/Alpin-tech/tree/develop/content
   label: Stuff
 - type: directory
-  path: content
+  path: https://github.com/Kaghar/Alpin-tech/tree/develop/content
   label: Content
   create: all
   match: "**/*"
