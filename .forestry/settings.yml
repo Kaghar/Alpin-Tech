@@ -10,7 +10,7 @@ sections:
   path: https://github.com/Kaghar/Alpin-tech/tree/develop/content
   label: Stuff
 - type: directory
-  path: https://github.com/Kaghar/Alpin-tech/tree/develop/content
+  path: stuff
   label: Content
   create: all
   match: "**/*"
