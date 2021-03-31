@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Frontpage
 - type: document
-  path: https://github.com/Kaghar/Alpin-tech/tree/develop
+  path: https://github.com/Kaghar/Alpin-tech/tree/develop/content
   label: Stuff
 - type: directory
   path: https://github.com/Kaghar/Alpin-tech/tree/develop/content
