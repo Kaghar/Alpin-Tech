@@ -9,9 +9,8 @@ sections:
 - type: document
   path: https://github.com/Kaghar/Alpin-tech/tree/develop
   label: Stuff
-  match: "**/*"
 - type: directory
-  path: Frontpage
+  path: https://github.com/Kaghar/Alpin-tech/tree/develop/content
   label: Content
   create: all
   match: "**/*"
