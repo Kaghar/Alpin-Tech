@@ -1,4 +1,5 @@
 <template>
+
     <div class="offer" :style="backgroundImage(data.Background)" id="offer">
         <div class="offer__container" >
             <div class="offer__top">
@@ -25,8 +26,13 @@
 
 <script>
 export default {
-    props: {
-        data: ''
+    // props: {
+    //     data: ''
+    // },
+    data() {
+        return {
+            data:''
+        }
     },
     methods: {
         backgroundImage(src){
@@ -40,6 +46,11 @@ export default {
         },
         
     },
+    async fetch(){
+        this.data = await fetch('https://alpin-tech-f040f-default-rtdb.europe-west1.firebasedatabase.app/Front/Cards.json').then(res =>
+      res.json()
+    )
+    }
 }
 </script>
 

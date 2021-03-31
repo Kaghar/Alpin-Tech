@@ -4,7 +4,9 @@
         <Nav :navigation="navigation" />
         <StartHero :header="header"/>
         <About :data="about"/> 
-        <Offer :data="offer"/>
+        <!-- <Offer :data="offer"/> -->
+                <Offer />
+
         <Gallery :data="gallery"/>
         <MainFooter :footer="footer"/> 
        
@@ -13,7 +15,8 @@
 <script>
 import axios from 'axios'
 export default {
-    asyncData(context){
+
+    async asyncData(){
         return axios.get(`https://alpin-tech-f040f-default-rtdb.europe-west1.firebasedatabase.app/Front.json`)
         .then(result => {
             return {
