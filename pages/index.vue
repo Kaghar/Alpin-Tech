@@ -1,6 +1,5 @@
 <template>
     <section class="frontPage">
-        
         <Nav :navigation="navigation" />
         <StartHero :header="header"/>
         <About :data="about"/> 
@@ -11,21 +10,17 @@
     </section>
 </template>
 <script>
-import axios from 'axios'
 export default {
-    asyncData(context){
-        return axios.get(`https://alpin-tech-f040f-default-rtdb.europe-west1.firebasedatabase.app/Front.json`)
-        .then(result => {
+     async asyncData({ $content }) {
+        const result = await $content('fullContent/fullFront').fetch()
             return {
-                navigation: result.data.Navigation,
-                header: result.data.Header,
-                about: result.data.About,
-                offer: result.data.Cards,
-                gallery: result.data.Gallery,
-                footer: result.data.Footer
+                navigation: result.Front.Navigation,
+                header: result.Front.Header,
+                about: result.Front.About,
+                offer: result.Front.Cards,
+                gallery: result.Front.Gallery,
+                footer: result.Front.Footer
             }
-        })
-        .catch(e => context.error(e))
     }
 }
 </script>
