@@ -4,13 +4,12 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Headingstuff
 - type: document
-  path: https://github.com/Kaghar/Alpin-tech/tree/main/content
+  path: https://github.com/Kaghar/Alpin-tech/tree/develop
   label: Stuff
+  match: "**/*"
 - type: directory
-  path: content
+  path: Frontpage
   label: Content
   create: all
   match: "**/*"
