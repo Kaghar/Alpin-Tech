@@ -1,341 +1,337 @@
 {
-    "Front":{   
-        "Navigation":{
-            "Logo": {
-                "WhiteSrc":"https://i.postimg.cc/Z5tYbz6q/logo-white.png",
-                "BlackSrc":"https://i.postimg.cc/J4G45GY2/logo-black.png",
-                "Alt":"Alpin-tech"
-            },
-            "Items": [
-                {
-                    "customPath":"#about",
-                    "text":"O nas"
-                },
-                {
-                    "customPath":"#offer",
-                    "text":"Oferta"
-                    
-                },
-                {
-                    "customPath":"#gallery",
-                    "text":"Galeria"
-                },
-                {
-                    "customPath":"#contact",
-                    "text":"Kontakt"
-                }
-            ]
+  "Front": {
+    "Navigation": {
+      "Logo": {
+        "WhiteSrc": "https://i.postimg.cc/Z5tYbz6q/logo-white.png",
+        "BlackSrc": "https://i.postimg.cc/J4G45GY2/logo-black.png",
+        "Alt": "Alpin-tech"
+      },
+      "Items": [
+        {
+          "customPath": "#about",
+          "text": "O nas"
         },
-        "Header": {
-            "Slides":[
-                {
-                    "Image":{
-                        "Src":"https://i.postimg.cc/D023bxjt/first.jpg",
-                        "Alt":"Wiszące nogi"
-                    },
-                    "Text": ""
-                    
-                },
-                {
-                    "Image":{
-                        "Src":"https://i.postimg.cc/dQ7x5Pd4/rig.png",
-                        "Alt":"Rig"
-                    },
-                    "Text": "Usługi alpinistyczne"
-                },
-                {
-                    "Image":{
-                        "Src":"https://i.postimg.cc/4xrC1f2v/komin.jpg",
-                        "Alt":"Komin EDF"
-                    },
-                    "Text": "Pierdu śmierdu"
-                }
-            ],
-            "Settings":{
-                "infiniteScroll": true,
-                "wheelControl": false,
-                "autoPlay": true
-            }
+        {
+          "customPath": "#offer",
+          "text": "Oferta"
         },
-        "About":{
-            "Title":"O nas",
-            "Texts":[
-                {
-                    "Value":"Firma \"Alpin-Tech Michał Dawidowicz\" Dorota Dawidowicz od 2004 roku świadczy usługi wysokościowe na terenie Trójmiasta."
-                },
-                {
-                    "Value":"Wieloletnie doświadczenie oraz grono stałych i zadowolonych klientów  stawia naszą firmę w czołówce najlepszych wykonawców prac wysokościowych w Trójmieście.  Koncentrujemy się głównie na obsłudze spółdzielni i  wspólnot mieszkaniowych, świadcząc usługi budowlane i montażowe.  Z uwagi na nasze przekrojowe doświadczenie oraz wsparcie merytoryczne klientów w zakresie prac wysokościowych między innymi powierzono nam wykonanie takich prac jak: montaż części zadaszenia stadionu piłkarskiego w Gdańsku, montaż anten i fiderów na szczycie komina H-230 w Elektrociepłowni Gdańsk oraz montaż zabezpieczeń przeciw ptakom na przystankach Pomorskiej Kolei Metropolitalnej i Zamku Malbork."
-                },
-                {
-                    "Value":"Dorobek w postaci wykonania ponad 40 000 mb zabezpieczeń przeciw ptakom stawia nas na pozycji lidera na obszarze północnej Polski dla tego typu prac."
-                },
-                {
-                    "Value":"W pracach wysokościowych służymy Państwu wiedzą i doświadczeniem, a do każdego zadania podchodzimy z należną starannością niezależnie od poziomu jego trudności."
-                }
-            ],
-            "Image":{
-                "Src":"https://i.postimg.cc/8zGXk7Y0/statek.jpg",
-                "Alt":"Statek"
-            }
+        {
+          "customPath": "#gallery",
+          "text": "Galeria"
         },
-        "Cards":{
-            "Title": "Oferta",
-            "Items":[
-                {   
-                    "Img":{
-                        "Src":"https://i.postimg.cc/Dmksgbsk/prace-remontow-budwlane.jpg",
-                        "Alt":"Prace remontowo-budowlane"
-                    },
-                    "Title":"Prace remontowo-budowlane",
-                    "List":[
-                        {
-                            "Value":"malowanie elewacji, dachów, wież i kominów"
-                        },
-                        {
-                            "Value":"malowanie wielkoformatowe napisów"
-                        },
-                        {
-                            "Value":"uzupełnianie oraz zbijanie tynków"
-                        },
-                        {
-                            "Value":"montaż i udrażnianie rynien spustowych"
-                        },
-                        {
-                            "Value":"uszczelnianie budynków z wielkiej płyty"
-                        },
-                        {
-                            "Value":"montaż i naprawa instalacji odgromowych"
-                        }
-                    ]
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/mkhVqMtP/mycie-i-czyszczennie.jpg",
-                        "Alt":"Mycie i czyszczenie"
-                    },
-                    "Title":"Mycie i czyszczenie",
-                    "List":[
-                        {
-                            "Value":"okien"
-                        },
-                        {
-                            "Value":"elewacji"
-                        },
-                        {
-                            "Value":"rynien spustowych"
-                        },
-                        {
-                            "Value":"zbiorników, kominów, masztów, silosów"
-                        },
-                        {
-                            "Value":"odkurzanie konstrukcji i instalacji hal fabrycznych"
-                        }
-                    ]
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/D0bLLcSP/prace-monta-owe-i-konstrukcyjne.jpg",
-                        "Alt":"Prace montażowe i konstrukcyjne"
-                    },
-                    "Title":"Prace montażowe i konstrukcyjne",
-                    "List":[
-                        {
-                            "Value":"montaż-demontaż konstrukcji stalowych"
-                        },
-                        {
-                            "Value":"anteny, lampy, nadajniki, okablowania"
-                        },
-                        {
-                            "Value":"rozbiórka konstrukcji stalowych, masztów"
-                        },
-                        {
-                            "Value":"estrady"
-                        },
-                        {
-                            "Value":"reklamy wielkoformatowe"
-                        },
-                        {
-                            "Value":"dekoracje świąteczne i okazjonalne"
-                        }
-                    ]
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/857tXMFj/zabezpieczenia-przed-ptakami.jpg",
-                        "Alt":"Zabezpieczenia przed ptakami"
-                    },
-                    "Title":"Zabezpieczenia przed ptakami",
-                    "List":[
-                        {
-                            "Value":"kolce"
-                        },
-                        {
-                            "Value":"siatki"
-                        },
-                        {
-                            "Value":"inne systemy"
-                        }
-                    ]
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/fRv2VwnT/usuwanie-element-w-stanwoiacych-zagro-enie.png",
-                        "Alt":"Usuwanie elementów stanowiących zagrożenie"
-                    },
-                    "Title":"Usuwanie elementów stanowiących zagrożenie",
-                    "List":[
-                        {
-                            "Value":"sople, nawisy śnieżne"
-                        },
-                        {
-                            "Value":"luźne tynki, elementy budowli ceglanych"
-                        },
-                        {
-                            "Value":"elementy konstrukcji"
-                        },
-                        {
-                            "Value":"przycinanie, prześwietlanie drzew"
-                        }
-                    ]
-                }
-            ],
-            "LastItem":{
-                "Img":{
-                    "Src":"https://i.postimg.cc/SsPcnPxK/nietypowe.jpg",
-                    "Alt":"Inne prace"
-                },
-                "Title":"Inne",
-                "List":[
-                    {
-                        "Icon":"photo",
-                        "Text":"dokumentacje fotograficzne i filmowe obiektów i miejsc trudnodostępnych"
-                    },
-                    {
-                        "Icon":"snow",
-                        "Text":"odśnieżanie dachów"
-                    },
-                    {
-                        "Icon":"smile",
-                        "Text":"wszelkie nietypowe prace na życzenie klienta"
-                    }
-                ]
-            },
-            "Background":"https://i.postimg.cc/9XNc0cXt/rope.jpg",
-            "Settings":{
-                "infiniteScroll": true,
-                "wheelControl": false,
-                "breakpoints":{
-                    "800": {
-                        "itemsToShow": 3
-                    },
-                    "600": {
-                        "itemsToShow": 1
-                    }
-                }
-            }
-    
-        },
-        "Gallery":{
-            "Title":"Galeria",
-            "Filters":[
-                {
-                    "Label":"Wszystkie",
-                    "Value": "all"
-                },
-                {
-                    "Label":"Kolce",
-                    "Value": "kolce"
-                },
-                {
-                    "Label":"Mycie okien",
-                    "Value": "mycie"
-                },
-                {
-                    "Label":"Remonty",
-                    "Value": "remonty"
-                }
-            ],
-            "Items":[
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/4xrC1f2v/komin.jpg",
-                        "Alt":"1"
-                    },
-                    "Category":"remonty"
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/PqtW9Z7d/mycie-kopula.jpg",
-                        "Alt":"2"
-                    },
-                    "Category":"mycie"
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/Dmksgbsk/prace-remontow-budwlane.jpg",
-                        "Alt":"3"
-                    },
-                    "Category":"remonty"
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/tCvGYthM/kolce.jpg",
-                        "Alt":"4"
-                    },
-                    "Category":"kolce"
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/90J5Pysz/kolce-przymorze.jpg",
-                        "Alt":"5"
-                    },
-                    "Category":"kolce"
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/8zGXk7Y0/statek.jpg",
-                        "Alt":"6"
-                    },
-                    "Category":"remonty"
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/D0bLLcSP/prace-monta-owe-i-konstrukcyjne.jpg",
-                        "Alt":"7"
-                    },
-                    "Category":"remonty"
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/G3ZSN7xr/stadion.jpg",
-                        "Alt":"8"
-                    },
-                    "Category":"kolce"
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/SsPcnPxK/nietypowe.jpg",
-                        "Alt":"9"
-                    },
-                    "Category":"mycie"
-                },
-                {
-                    "Img":{
-                        "Src":"https://i.postimg.cc/HLRLX1XF/alfa.jpg",
-                        "Alt":"10"
-                    },
-                    "Category":"remonty"
-                }
-                
-            ]
-        },
-        "Footer":{
-            "Phone":"691-771-087",
-            "Email":"biuro@alpin-tech.com.pl",
-            "CompanyInQoute":"Alpin-Tech Michał Dawidowicz",
-            "Company":"Dorota Dawidowicz",
-            "Address": "ul. Gospody 21B/9 80-344 Gdańsk",
-            "Nip":"NIP: 958-149-47-86"
+        {
+          "customPath": "#contact",
+          "text": "Kontakt"
         }
-    } 
+      ]
+    },
+    "Header": {
+      "Slides": [
+        {
+          "Image": {
+            "Src": "https://i.postimg.cc/D023bxjt/first.jpg",
+            "Alt": "Wiszące nogi"
+          },
+          "Text": ""
+        },
+        {
+          "Image": {
+            "Src": "https://i.postimg.cc/dQ7x5Pd4/rig.png",
+            "Alt": "Rig"
+          },
+          "Text": "Usługi alpinistyczne"
+        },
+        {
+          "Image": {
+            "Src": "https://i.postimg.cc/4xrC1f2v/komin.jpg",
+            "Alt": "Komin EDF"
+          },
+          "Text": "Pierdu śmierdu"
+        }
+      ],
+      "Settings": {
+        "infiniteScroll": true,
+        "wheelControl": false,
+        "autoPlay": true
+      }
+    },
+    "About": {
+      "Title": "O nas, od foresty",
+      "Texts": [
+        {
+          "Value": "Firma \"Alpin-Tech Michał Dawidowicz\" Dorota Dawidowicz od 2004 roku świadczy usługi wysokościowe na terenie Trójmiasta."
+        },
+        {
+          "Value": "Wieloletnie doświadczenie oraz grono stałych i zadowolonych klientów  stawia naszą firmę w czołówce najlepszych wykonawców prac wysokościowych w Trójmieście.  Koncentrujemy się głównie na obsłudze spółdzielni i  wspólnot mieszkaniowych, świadcząc usługi budowlane i montażowe.  Z uwagi na nasze przekrojowe doświadczenie oraz wsparcie merytoryczne klientów w zakresie prac wysokościowych między innymi powierzono nam wykonanie takich prac jak: montaż części zadaszenia stadionu piłkarskiego w Gdańsku, montaż anten i fiderów na szczycie komina H-230 w Elektrociepłowni Gdańsk oraz montaż zabezpieczeń przeciw ptakom na przystankach Pomorskiej Kolei Metropolitalnej i Zamku Malbork."
+        },
+        {
+          "Value": "Dorobek w postaci wykonania ponad 40 000 mb zabezpieczeń przeciw ptakom stawia nas na pozycji lidera na obszarze północnej Polski dla tego typu prac."
+        },
+        {
+          "Value": "W pracach wysokościowych służymy Państwu wiedzą i doświadczeniem, a do każdego zadania podchodzimy z należną starannością niezależnie od poziomu jego trudności."
+        }
+      ],
+      "Image": {
+        "Src": "https://i.postimg.cc/8zGXk7Y0/statek.jpg",
+        "Alt": "Statek"
+      }
+    },
+    "Cards": {
+      "Title": "Oferta",
+      "Items": [
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/Dmksgbsk/prace-remontow-budwlane.jpg",
+            "Alt": "Prace remontowo-budowlane"
+          },
+          "Title": "Prace remontowo-budowlane",
+          "List": [
+            {
+              "Value": "malowanie elewacji, dachów, wież i kominów"
+            },
+            {
+              "Value": "malowanie wielkoformatowe napisów"
+            },
+            {
+              "Value": "uzupełnianie oraz zbijanie tynków"
+            },
+            {
+              "Value": "montaż i udrażnianie rynien spustowych"
+            },
+            {
+              "Value": "uszczelnianie budynków z wielkiej płyty"
+            },
+            {
+              "Value": "montaż i naprawa instalacji odgromowych"
+            }
+          ]
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/mkhVqMtP/mycie-i-czyszczennie.jpg",
+            "Alt": "Mycie i czyszczenie"
+          },
+          "Title": "Mycie i czyszczenie",
+          "List": [
+            {
+              "Value": "okien"
+            },
+            {
+              "Value": "elewacji"
+            },
+            {
+              "Value": "rynien spustowych"
+            },
+            {
+              "Value": "zbiorników, kominów, masztów, silosów"
+            },
+            {
+              "Value": "odkurzanie konstrukcji i instalacji hal fabrycznych"
+            }
+          ]
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/D0bLLcSP/prace-monta-owe-i-konstrukcyjne.jpg",
+            "Alt": "Prace montażowe i konstrukcyjne"
+          },
+          "Title": "Prace montażowe i konstrukcyjne",
+          "List": [
+            {
+              "Value": "montaż-demontaż konstrukcji stalowych"
+            },
+            {
+              "Value": "anteny, lampy, nadajniki, okablowania"
+            },
+            {
+              "Value": "rozbiórka konstrukcji stalowych, masztów"
+            },
+            {
+              "Value": "estrady"
+            },
+            {
+              "Value": "reklamy wielkoformatowe"
+            },
+            {
+              "Value": "dekoracje świąteczne i okazjonalne"
+            }
+          ]
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/857tXMFj/zabezpieczenia-przed-ptakami.jpg",
+            "Alt": "Zabezpieczenia przed ptakami"
+          },
+          "Title": "Zabezpieczenia przed ptakami",
+          "List": [
+            {
+              "Value": "kolce"
+            },
+            {
+              "Value": "siatki"
+            },
+            {
+              "Value": "inne systemy"
+            }
+          ]
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/fRv2VwnT/usuwanie-element-w-stanwoiacych-zagro-enie.png",
+            "Alt": "Usuwanie elementów stanowiących zagrożenie"
+          },
+          "Title": "Usuwanie elementów stanowiących zagrożenie",
+          "List": [
+            {
+              "Value": "sople, nawisy śnieżne"
+            },
+            {
+              "Value": "luźne tynki, elementy budowli ceglanych"
+            },
+            {
+              "Value": "elementy konstrukcji"
+            },
+            {
+              "Value": "przycinanie, prześwietlanie drzew"
+            }
+          ]
+        }
+      ],
+      "LastItem": {
+        "Img": {
+          "Src": "https://i.postimg.cc/SsPcnPxK/nietypowe.jpg",
+          "Alt": "Inne prace"
+        },
+        "Title": "Inne",
+        "List": [
+          {
+            "Icon": "photo",
+            "Text": "dokumentacje fotograficzne i filmowe obiektów i miejsc trudnodostępnych"
+          },
+          {
+            "Icon": "snow",
+            "Text": "odśnieżanie dachów"
+          },
+          {
+            "Icon": "smile",
+            "Text": "wszelkie nietypowe prace na życzenie klienta"
+          }
+        ]
+      },
+      "Background": "https://i.postimg.cc/9XNc0cXt/rope.jpg",
+      "Settings": {
+        "infiniteScroll": true,
+        "wheelControl": false,
+        "breakpoints": {
+          "600": {
+            "itemsToShow": 1
+          },
+          "800": {
+            "itemsToShow": 3
+          }
+        }
+      }
+    },
+    "Gallery": {
+      "Title": "Galeria",
+      "Filters": [
+        {
+          "Label": "Wszystkie",
+          "Value": "all"
+        },
+        {
+          "Label": "Kolce",
+          "Value": "kolce"
+        },
+        {
+          "Label": "Mycie okien",
+          "Value": "mycie"
+        },
+        {
+          "Label": "Remonty",
+          "Value": "remonty"
+        }
+      ],
+      "Items": [
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/4xrC1f2v/komin.jpg",
+            "Alt": "1"
+          },
+          "Category": "remonty"
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/PqtW9Z7d/mycie-kopula.jpg",
+            "Alt": "2"
+          },
+          "Category": "mycie"
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/Dmksgbsk/prace-remontow-budwlane.jpg",
+            "Alt": "3"
+          },
+          "Category": "remonty"
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/tCvGYthM/kolce.jpg",
+            "Alt": "4"
+          },
+          "Category": "kolce"
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/90J5Pysz/kolce-przymorze.jpg",
+            "Alt": "5"
+          },
+          "Category": "kolce"
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/8zGXk7Y0/statek.jpg",
+            "Alt": "6"
+          },
+          "Category": "remonty"
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/D0bLLcSP/prace-monta-owe-i-konstrukcyjne.jpg",
+            "Alt": "7"
+          },
+          "Category": "remonty"
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/G3ZSN7xr/stadion.jpg",
+            "Alt": "8"
+          },
+          "Category": "kolce"
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/SsPcnPxK/nietypowe.jpg",
+            "Alt": "9"
+          },
+          "Category": "mycie"
+        },
+        {
+          "Img": {
+            "Src": "https://i.postimg.cc/HLRLX1XF/alfa.jpg",
+            "Alt": "10"
+          },
+          "Category": "remonty"
+        }
+      ]
+    },
+    "Footer": {
+      "Phone": "691-771-087",
+      "Email": "biuro@alpin-tech.com.pl",
+      "CompanyInQoute": "Alpin-Tech Michał Dawidowicz",
+      "Company": "Dorota Dawidowicz",
+      "Address": "ul. Gospody 21B/9 80-344 Gdańsk",
+      "Nip": "NIP: 958-149-47-86"
+    }
+  }
 }
