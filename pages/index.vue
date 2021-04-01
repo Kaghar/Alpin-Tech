@@ -1,15 +1,11 @@
 <template>
     <section class="frontPage">
-        
         <Nav :navigation="navigation" />
         <StartHero :header="header"/>
         <About :data="about"/> 
-        <!-- <Offer :data="offer"/> -->
-                <Offer />
-
+        <Offer :data="offer"/>
         <Gallery :data="gallery"/>
         <MainFooter :footer="footer"/> 
-       
     </section>
 </template>
 <script>

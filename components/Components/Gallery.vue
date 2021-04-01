@@ -3,10 +3,10 @@
         <div class="gallery__top">
             <h2 class="heading-2 gallery__top-title">{{data.Title}}</h2>
             <div class="gallery__top-filters">
-                <h4 class="heading-4 gallery__top-filters--filter" 
+                <p class="heading-4 gallery__top-filters--filter" 
                 v-for="(filter, index) in data.Filters" :key="index" :index="index" 
                 :class="{ active: currentFilter === filter.Value }" 
-                @click="setFilter(filter.Value)">{{filter.Label}}</h4>
+                @click="setFilter(filter.Value)">{{filter.Label}}</p>
             </div>
         </div>
         <div class="gallery__bot">
@@ -99,7 +99,7 @@ export default {
                     align-items: center;
                     cursor: pointer;
                     transition: all .2s;
-
+                    font-weight: 600;
                     &:not(:last-child){
                         margin-right: 2rem;
                     }
@@ -153,7 +153,7 @@ export default {
                 }
                 @include IE {
                     display:flex;
-                    justify-content: space-between;
+                    justify-content: center;
                     flex-wrap: wrap;
                 }
                 &--item{
@@ -170,9 +170,10 @@ export default {
                         height: 20rem;
                     }
                     @include IE {
-                        width:20rem;
+                        width:30rem;
                         position: relative;
                         overflow: hidden;
+                        margin: 0 2rem 2rem 0;
                     }
                     &--img{
                         width: 100%;

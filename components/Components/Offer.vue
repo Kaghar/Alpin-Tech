@@ -26,13 +26,8 @@
 
 <script>
 export default {
-    // props: {
-    //     data: ''
-    // },
-    data() {
-        return {
-            data:''
-        }
+    props: {
+        data: ''
     },
     methods: {
         backgroundImage(src){
@@ -45,11 +40,6 @@ export default {
             this.$refs.carousel.slideNext();
         },
         
-    },
-    async fetch(){
-        this.data = await fetch('https://alpin-tech-f040f-default-rtdb.europe-west1.firebasedatabase.app/Front/Cards.json').then(res =>
-      res.json()
-    )
     }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
-    <li class="navigation__list-item">
-        <nuxt-link :to=customPath>{{text}}</nuxt-link>
+    <li class="navigation__list-item" @click="scroll(customPath)">
+        <p>{{text}}</p>
     </li>
 </template>
 
@@ -16,7 +16,14 @@ export default {
             type: String,
             required: true
         },
-    }
+    },
+    methods: {
+        scroll(id) { 
+            document.getElementById(id).scrollIntoView({
+            behavior: "smooth"
+            });
+        }
+    },
 }
 </script>
 
@@ -35,12 +42,13 @@ export default {
               transition:  all .2s;
             }
         }
-        & a {
+        & p {
             color: inherit;
             text-decoration: none;
             display:flex;
             flex-direction: column;
             align-items: center;
+            cursor: pointer;
             &:hover,
             &:active{
                 color: $color-red;
